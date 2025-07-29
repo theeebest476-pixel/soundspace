@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#keys {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.key {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background: #ccc;
+  line-height: 60px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.key.active {
+  background: #4caf50;
+  color: white;
+  transform: scale(1.1);
+}
